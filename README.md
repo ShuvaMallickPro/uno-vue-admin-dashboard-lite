@@ -5,9 +5,9 @@ It includes a small set of fully working core pages and keeps the rest of the pr
 
 ### Links (fill these in)
 
-- **Repository (GitHub)**: `https://github.com/ShuvaMallickPro/uno-vue-admin-dashboard-lite.git`
-- **Lite product page**: `https://uno-vue-admin-dashboard-lite.vercel.app/`
-- **Premium (PRO) product page**: `https://www.templatemonster.com/admin-templates/uno-vue-admin-dashboard-template-with-vite-amp-typescript-477158.html`
+- **Repository (GitHub)**: [ShuvaMallickPro/uno-vue-admin-dashboard-lite](https://github.com/ShuvaMallickPro/uno-vue-admin-dashboard-lite.git)
+- **Lite product page**: [Live demo (Lite)](https://uno-vue-admin-dashboard-lite.vercel.app/)
+- **Premium (PRO) product page**: [TemplateMonster (PRO) — Uno Vue Admin Dashboard](https://www.templatemonster.com/admin-templates/uno-vue-admin-dashboard-template-with-vite-amp-typescript-477158.html)
 
 ## What’s included in Lite (Core pages)
 

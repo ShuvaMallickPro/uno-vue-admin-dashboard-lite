@@ -26,7 +26,12 @@ const router = createRouter({
         ...usersRoutes,
       ],
     },
-    { path: "/", redirect: "/dashboard" },
+    {
+      path: "/",
+      name: "Home",
+      component: () => import("@/pages/Home.vue"),
+      meta: { title: "Home" },
+    },
     {
       path: "/login",
       name: "Login",
