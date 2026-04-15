@@ -1,0 +1,377 @@
+export const priority = [
+  { id: 1, name: "Low", icon: "emojione-monotone:down-arrow" },
+  { id: 2, name: "Medium", icon: "emojione-monotone:right-arrow" },
+  { id: 3, name: "High", icon: "emojione-monotone:up-arrow" },
+];
+
+export const assignees = [
+  {
+    id: 1,
+    image: "/images/users/01.png",
+    name: "Harrison Stein",
+    email: "harrison.stein@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 2,
+    image: "/images/users/02.png",
+    name: "Lila Monroe",
+    email: "lila.monroe@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 3,
+    image: "/images/users/03.png",
+    name: "Ethan Brooks",
+    email: "ethan.brooks@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 4,
+    image: "/images/users/04.png",
+    name: "Sophia Patel",
+    email: "sophia.patel@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 5,
+    image: "/images/users/05.png",
+    name: "Mason Carter",
+    email: "mason.carter@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 6,
+    image: "/images/users/06.png",
+    name: "Ava Nguyen",
+    email: "ava.nguyen@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 7,
+    image: "/images/users/07.png",
+    name: "Liam Foster",
+    email: "liam.foster@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 8,
+    image: "/images/users/08.png",
+    name: "Olivia Hayes",
+    email: "olivia.hayes@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 9,
+    image: "/images/users/09.png",
+    name: "Noah Kim",
+    email: "noah.kim@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 10,
+    image: "/images/users/10.png",
+    name: "Emma Sullivan",
+    email: "emma.sullivan@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 11,
+    image: "/images/users/12.png",
+    name: "Lucas Reed",
+    email: "lucas.reed@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 12,
+    image: "/images/users/13.png",
+    name: "Isabella Chen",
+    email: "isabella.chen@gmail.com",
+    isAssignee: false,
+  },
+  {
+    id: 11,
+    image: "/images/users/14.png",
+    name: "Lucas Reed",
+    email: "lucas.reed@gmail.com",
+    isAssignee: false,
+  },
+];
+
+export const todos = [
+  {
+    id: 1,
+    columnId: 1,
+    title: "Update Database System",
+    reporter: {
+      image: "/images/users/01.png",
+      name: "Harrison Stein",
+      email: "harrison.stein@gmail.com",
+    },
+    assignee: [
+      "/images/users/12.png",
+      "/images/users/13.png",
+      "/images/users/14.png",
+      "/images/users/01.png",
+    ],
+    labels: ["Technology", "Database", "Performance"],
+    dueDate: {
+      startDate: "10 May, 2025",
+      endDate: "20 May, 2026",
+    },
+    priority: "Medium",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting One",
+    attachments: ["/images/posts/post-1.jpg"],
+    createdAt: "10 May, 2020",
+  },
+  {
+    id: 2,
+    columnId: 2,
+    title: "Resolve Authentication Issues",
+    reporter: {
+      image: "/images/users/02.png",
+      name: "Lila Monroe",
+      email: "lila.monroe@gmail.com",
+    },
+    assignee: ["/images/users/02.png", "/images/users/03.png"],
+    labels: ["Security", "Frontend"],
+    dueDate: {
+      startDate: "15 Jun, 2025",
+      endDate: "25 Jun, 2026",
+    },
+    priority: "High",
+    description:
+      "Investigate and resolve the login errors affecting multiple users",
+    attachments: [],
+    createdAt: "15 Jun, 2020",
+  },
+  {
+    id: 3,
+    columnId: 3,
+    title: "Design Promotional Banner",
+    reporter: {
+      image: "/images/users/03.png",
+      name: "Ethan Brooks",
+      email: "ethan.brooks@gmail.com",
+    },
+    assignee: [
+      "/images/users/05.png",
+      "/images/users/06.png",
+      "/images/users/07.png",
+      "/images/users/08.png",
+    ],
+    labels: ["Design", "Marketing", "UI/UX"],
+    dueDate: {
+      startDate: "02 Jul, 2025",
+      endDate: "12 Jul, 2026",
+    },
+    priority: "Medium",
+    description:
+      "Create a visually appealing banner for the summer sale campaign",
+    attachments: ["/images/posts/post-3.jpg"],
+    createdAt: "02 Jul, 2020",
+  },
+  {
+    id: 4,
+    columnId: 1,
+    title: "Create Presentation Materials",
+    reporter: {
+      image: "/images/users/04.png",
+      name: "Sophia Patel",
+      email: "sophia.patel@gmail.com",
+    },
+    assignee: ["/images/users/09.png", "/images/users/10.png"],
+    labels: ["Documentation", "Presentation"],
+    dueDate: {
+      startDate: "20 Aug, 2025",
+      endDate: "30 Aug, 2026",
+    },
+    priority: "Low",
+    description:
+      "Draft slides for the upcoming quarterly performance review meeting",
+    attachments: [],
+    createdAt: "20 Aug, 2020",
+  },
+  {
+    id: 5,
+    columnId: 2,
+    title: "Optimize Server Infrastructure",
+    reporter: {
+      image: "/images/users/05.png",
+      name: "Mason Carter",
+      email: "mason.carter@gmail.com",
+    },
+    assignee: ["/images/users/11.png", "/images/users/12.png"],
+    labels: ["Backend", "Performance", "Infrastructure"],
+    dueDate: {
+      startDate: "05 Sep, 2025",
+      endDate: "15 Sep, 2026",
+    },
+    priority: "High",
+    description:
+      "Analyze and improve the response times of the production server",
+    attachments: ["/images/posts/post-5.jpg"],
+    createdAt: "05 Sep, 2020",
+  },
+  {
+    id: 6,
+    columnId: 3,
+    title: "Conduct User Research",
+    reporter: {
+      image: "/images/users/06.png",
+      name: "Ava Nguyen",
+      email: "ava.nguyen@gmail.com",
+    },
+    assignee: [
+      "/images/users/14.png",
+      "/images/users/01.png",
+      "/images/users/02.png",
+    ],
+    labels: ["Research", "UX"],
+    dueDate: {
+      startDate: "12 Oct, 2025",
+      endDate: "22 Oct, 2026",
+    },
+    priority: "Medium",
+    description:
+      "Organize a session with users to gather feedback on the new feature rollout",
+    attachments: [],
+    createdAt: "12 October, 2020",
+  },
+  {
+    id: 7,
+    columnId: 1,
+    title: "Upgrade System Software",
+    reporter: {
+      image: "/images/users/07.png",
+      name: "Liam Foster",
+      email: "liam.foster@gmail.com",
+    },
+    assignee: ["/images/users/03.png", "/images/users/06.png"],
+    labels: ["Maintenance", "System", "Update"],
+    dueDate: {
+      startDate: "28 Oct, 2025",
+      endDate: "07 Nov, 2026",
+    },
+    priority: "High",
+    description:
+      "Plan and execute the upgrade of all systems to the latest software version",
+    attachments: ["/images/posts/post-7.jpg"],
+    createdAt: "28 October, 2020",
+  },
+  {
+    id: 8,
+    columnId: 2,
+    title: "Create Marketing Content",
+    reporter: {
+      image: "/images/users/08.png",
+      name: "Olivia Hayes",
+      email: "olivia.hayes@gmail.com",
+    },
+    assignee: ["/images/users/07.png", "/images/users/08.png"],
+    labels: ["Content", "Marketing"],
+    dueDate: {
+      startDate: "03 Nov, 2025",
+      endDate: "13 Nov, 2026",
+    },
+    priority: "Medium",
+    description:
+      "Write a detailed blog post for the launch of our new product line",
+    attachments: ["/images/posts/post-8.jpg"],
+    createdAt: "03 November, 2020",
+  },
+  {
+    id: 9,
+    columnId: 3,
+    title: "Validate API Endpoints",
+    reporter: {
+      image: "/images/users/09.png",
+      name: "Noah Kim",
+      email: "noah.kim@gmail.com",
+    },
+    assignee: [
+      "/images/users/09.png",
+      "/images/users/10.png",
+      "/images/users/11.png",
+    ],
+    labels: ["API", "Testing", "Security"],
+    dueDate: {
+      startDate: "17 Nov, 2025",
+      endDate: "27 Nov, 2026",
+    },
+    priority: "High",
+    description:
+      "Verify functionality and security of the newly deployed API endpoints",
+    attachments: ["/images/posts/post-9.jpg"],
+    createdAt: "17 November, 2020",
+  },
+  {
+    id: 10,
+    columnId: 1,
+    title: "Setup Team Environment",
+    reporter: {
+      image: "/images/users/10.png",
+      name: "Emma Sullivan",
+      email: "emma.sullivan@gmail.com",
+    },
+    assignee: ["/images/users/12.png", "/images/users/13.png"],
+    labels: ["Onboarding", "Workspace"],
+    dueDate: {
+      startDate: "24 Nov, 2025",
+      endDate: "04 Dec, 2026",
+    },
+    priority: "Low",
+    description:
+      "Arrange and organize the workspace for the newly onboarded team members",
+    attachments: [],
+    createdAt: "24 November, 2020",
+  },
+  {
+    id: 11,
+    columnId: 2,
+    title: "Plan Marketing Campaign",
+    reporter: {
+      image: "/images/users/01.png",
+      name: "Lucas Reed",
+      email: "lucas.reed@gmail.com",
+    },
+    assignee: [
+      "/images/users/14.png",
+      "/images/users/01.png",
+      "/images/users/02.png",
+      "/images/users/03.png",
+    ],
+    labels: ["Marketing", "Planning", "Campaign"],
+    dueDate: {
+      startDate: "01 Dec, 2025",
+      endDate: "11 Dec, 2026",
+    },
+    priority: "Medium",
+    description:
+      "Create a detailed plan for the holiday season promotional campaign",
+    attachments: ["/images/posts/post-11.jpg"],
+    createdAt: "01 December, 2020",
+  },
+  {
+    id: 12,
+    columnId: 3,
+    title: "Review Security Measures",
+    reporter: {
+      image: "/images/users/02.png",
+      name: "Isabella Chen",
+      email: "isabella.chen@gmail.com",
+    },
+    assignee: ["/images/users/04.png", "/images/users/05.png"],
+    labels: ["Security", "Compliance"],
+    dueDate: {
+      startDate: "15 Dec, 2025",
+      endDate: "25 Dec, 2026",
+    },
+    priority: "High",
+    description:
+      "Perform a thorough review of the organization's security protocols",
+    attachments: [],
+    createdAt: "15 December, 2020",
+  },
+];
